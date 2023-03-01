@@ -5,11 +5,11 @@ import Slider from '../components/slider.js';
 const Home = () =>{
 
     return(
-            <>
-                    <div  className="bgColor">
+            
+        <div  className="bgColor">
             <Header/>
             <Slider/>
-        </div></>
+        </div>
     )
 }
 export default Home;

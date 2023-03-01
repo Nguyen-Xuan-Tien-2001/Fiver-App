@@ -3,12 +3,17 @@
     width: 100%;
     height: 80px;
     border-bottom: 1px solid #e4e5e7;
+    position: fixed;
+    top: 0;
 }
 .userMenu ul {
     padding: 10px;
 }
 .userMenu ul li {
     margin-top: 15px;
+}
+.userMenu ul li:hover a{
+    color: #1dbf73;
 }
 .userMenu ul li a {
     color: #8c8e95;
@@ -19,4 +24,14 @@
 }
 .userMenu ul li .userImg{
     border-radius: 50%;
+}
+ul .nav-item{
+    display: flex;
+    align-items: center;
+}
+.dropdown-menu.show a{
+    padding: 8px;
+}
+.dropdown-menu.show a:hover{
+    background-color: #d2d3d5;
 }

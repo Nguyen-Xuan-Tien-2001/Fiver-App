@@ -9,7 +9,7 @@ const Slider =() =>{
 
     return (
         <div className="slider">
-            <Carousel>
+            <Carousel pause="none">
                 <Carousel.Item>
                     <img
                     className="d-block w-100"

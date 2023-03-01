@@ -1,6 +1,7 @@
 import { Row,Col,NavDropdown,Nav } from 'react-bootstrap'
 import { Link } from "react-router-dom"
 import '../accets/userHeader.css'
+import Menu from './menu.js'
 
 const UserHeader = () => {
 
@@ -58,6 +59,8 @@ const UserHeader = () => {
                     </ul>
                 </Col>
             </Row>
+
+            <Menu/>
         </div>
     )
 }
