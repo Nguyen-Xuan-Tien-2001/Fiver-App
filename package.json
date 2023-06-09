@@ -28,6 +28,7 @@
     "bootstrap": "^5.2.3",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "infinite-react-carousel": "^1.2.11",
     "mongoose": "^6.10.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",

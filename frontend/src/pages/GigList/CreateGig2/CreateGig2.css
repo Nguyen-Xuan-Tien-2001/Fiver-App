@@ -1,0 +1,31 @@
+.CreateGig .container{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.card-body > div{
+    margin: 15px 0;
+}
+.radioBtn .row  div input,label{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.btn-cancel{
+    margin-top: 30px;
+    background-color: rgb(255, 0, 47);
+    width: 100px;
+}
+.btn-submit{
+    margin-left: 95px;
+    margin-top: 30px;
+    width: 100px;
+}
+.gig2{
+    margin-top: 30px;
+}
+.gig2line{
+     background-color: darkgray;
+     height: 1px;
+}
+.gig2 h5{
+    margin-top: 17px;
+}

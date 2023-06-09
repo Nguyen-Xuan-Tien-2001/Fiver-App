@@ -1,0 +1,53 @@
+.ContainerFormEdit {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerForm h2 {
+    font-family: cursive;
+
+}
+
+.ContentForm {
+    min-width: 60%;
+}
+
+.ContentForm label {
+    display: block;
+    width: 100%;
+    font-family: cursive;
+    margin-top: 10px;
+}
+
+.ContentForm input,
+.ContentForm select {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+
+}
+
+.ContentForm input:focus-visible,
+.ContentForm select:focus-visible {
+    outline: none;
+    border-bottom: 3px solid #1dbf73;
+}
+
+.ContentForm .BtnSaveInformation {
+    height: 40px;
+    border-radius: 4px;
+    background-color: #1dbf73;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: cursive;
+    width: 100%;
+
+}
+.ContentForm span {
+    color: red;
+}

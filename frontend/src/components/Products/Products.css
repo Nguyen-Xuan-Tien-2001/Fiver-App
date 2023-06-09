@@ -1,0 +1,33 @@
+.List_Products{
+    border: 1px solid #e4e5e7;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    padding: 16px 32px 32px;
+}
+
+.Product_title{
+    font-family: Macan,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #404145;
+    font-size: 30px;
+}
+.Container_products{
+    display: flex;
+    margin-top: 40px;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.AuthorProduct{
+    display: flex;
+    align-items: center;
+}
+.AuthorProduct img{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 20px;
+}
+.AuthorProduct .AuthorName{
+    font-size: 18px;
+    font-weight: 600;
+}

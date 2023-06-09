@@ -1,0 +1,20 @@
+.itemProduct{
+    cursor: pointer;
+}
+.itemProduct .AuthorName:hover,.itemProduct .card-text:hover{
+    color: #1dbf73;
+}
+.FooterProductItem{
+    display: flex;
+    align-items: center;
+}
+.FooterProductPrice{
+    margin-left: 50px;
+    color: #74767e;
+    font-size: 16px;
+    font-weight: 700;
+}
+.FooterProductPrice .Price{
+    font-size: 20px;
+    margin-left: 3px;
+}

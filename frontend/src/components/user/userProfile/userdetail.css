@@ -1,0 +1,59 @@
+.userdetail .container{
+    display: flex;
+    gap: 80px;
+}
+
+.userdetail{
+    font-weight: 600;
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.editProfile{
+    padding-left: 0;
+    color: #74767e;
+    background: none;
+    border: none;
+}
+.editProfile:hover{
+    color:black !important;
+    background-color: white !important;
+    border: none !important;
+    font-weight: 500;
+}
+
+.userdetail img{
+    border-radius: 50%;
+}
+ .userInfo{
+    background-color: white;
+    width: 30%;
+    padding: 16px;
+    line-height: 40px;
+}
+.userdetail .userInfo .line{
+    width: 100%;
+    height: 1px;
+    background-color: #e7e8e9;
+}
+.Seller{
+    flex: 1 1;
+    height: 500px;
+    background-color: White;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.user_contact span {
+    color: #62646a;
+    margin-left: 25px;
+    padding-right: 40px;
+}
+.List_language{
+    display: block;
+    color: #62646a;
+}
